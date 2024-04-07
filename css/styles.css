@@ -92,6 +92,7 @@ h2:hover{
 }
 */
 
+
 p {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -170,20 +171,20 @@ nav a:hover {
 /* section a la izquierda ocupando un 70% de la ventana */
 section {
   float: left;
-  width: 62%;
+  width: 96%;
   padding: 10px;
   margin: 10px;
-  background-color: #f1f1f1;
+  background-color:beige;
   border-radius: 10px;
 }
 
 /* aside a la derecha */
 aside {
   float: right;
-  width: 30%;
+  width: 96%;
   padding: 10px;
   margin: 10px;
-  background-color: #f1f1f1;
+  background-color: beige;
   border-radius: 10px;
 }
 
@@ -197,14 +198,18 @@ aside ul {
 
 aside a {
   display: block;
-  color: blue;
+  color: green;
   text-align: center;
-  padding: 14px 20px;
+  padding: 10px 20px;
   text-decoration: none;
   font-family: "Courier New", Courier, monospace;
-  font-size: medium;
+  font-size:large;
+  font-weight: bold;
   border-radius: 10px;
+  
+ 
 }
+
 
 aside a:hover {
   background-color: #ddd;
@@ -219,12 +224,15 @@ footer {
   padding: 10px;
   background-color: #333;
   border-radius: 10px;
+  
 }
+
 
 footer p {
   font-size: small;
   color: white;
   text-align: center;
+ 
 }
 
 /* Clase galeria  cuadrada todas las imagenes del mismo tamaño*/
@@ -252,7 +260,7 @@ footer p {
 .contacto {
   border-radius: 10px;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: beige;
 }
 
 .contacto input[type="text"],
