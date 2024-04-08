@@ -1,0 +1,17 @@
+
+  #mueble1{
+  
+    height: 600px;
+    width: 100%;
+   
+  }
+
+  h5{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
+    font-size: 30px;
+  }
+
+  #pColec{
+    font-weight: medium;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
+  }
